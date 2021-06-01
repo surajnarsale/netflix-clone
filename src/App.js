@@ -1,3 +1,3 @@
 export default function App() {
-	return <p>INITIAL RENDER</p>;
+	return <h1>Global Styles Created</h1>;
 }
