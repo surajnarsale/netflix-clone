@@ -24,6 +24,10 @@ export const Title = styled.h1`
   margin-bottom: 8px;
   color: white;
   text-align: center;
+
+  @media (max-width: 600px) {
+    font-size: 35px;
+  }
 `;
 
 export const Item = styled.div`
@@ -32,6 +36,13 @@ export const Item = styled.div`
   margin-bottom: 10px;
   max-width: 728px;
   width: 100%;
+
+  &:first-of-type {
+    margin-top: 3em;
+  }
+  &:last-of-type {
+    margin-bottom: 0;
+  }
 `;
 
 export const Header = styled.div`
@@ -54,6 +65,10 @@ export const Header = styled.div`
     @media (max-width: 600px) {
       width: 16px;
     }
+  }
+
+  @media (max-width: 600px) {
+    font-size: 16px;
   }
 `;
 
