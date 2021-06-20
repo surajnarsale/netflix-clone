@@ -17,7 +17,7 @@
         "web-vitals": "^1.1.2"
     },
     "scripts": {
-        "start": "env-cmd -f .env.production.local react-scripts start",
+        "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
@@ -41,7 +41,6 @@
         ]
     },
     "devDependencies": {
-        "dotenv": "^10.0.0",
         "env-cmd": "^10.1.0",
         "eslint": "^7.29.0",
         "eslint-config-airbnb": "^18.2.1",
