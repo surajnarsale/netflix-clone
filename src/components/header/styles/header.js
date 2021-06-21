@@ -22,12 +22,10 @@ export const Background = styled.div`
 
 export const Container = styled.div`
   display: flex;
-  margin: 0 auto;
+  margin: 0 56px;
   height: 100px;
   justify-content: space-between;
   align-items: center;
-  width: 1920px;
-  max-width: 1920px;
 
   a {
     display: flex;
